@@ -251,7 +251,6 @@ int main(int argc, char** argv)
         goLSimulation = new GoLSimulation(board, outputPref);
         goLSimulation->start();
     }
-    delete board;
     delete goLSimulation;
     return 0;
 }
