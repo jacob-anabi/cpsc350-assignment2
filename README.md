@@ -6,7 +6,7 @@ Jacob Anabi
 
 CPSC 350
 
-Assignment 1
+Assignment 2
 
 
 ## Souce files:
