@@ -25,6 +25,8 @@ GoLSimulation.cpp
 
 RuntimeException.cpp
 
+MapFileMisMatchException.h
+
 
 ## Header files:
 
@@ -39,6 +41,8 @@ MirrorBoard.h
 GoLSimulation.h
 
 RuntimeException.h
+
+MapFileMisMatchException.h
 
 ## Used Resources:
 
