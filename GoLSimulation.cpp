@@ -61,6 +61,9 @@ void GoLSimulation::start()
                 std::cout << std::endl;
             }
             std::cout << "Simulation is empty or has stabilized." << std::endl;
+            std::cout << "Press enter to exit: ";
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // enter to continue (only looks for a newline character)
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // enter to continue (only looks for a newline character)
             break;
         }
         case 'm': // manual output method
@@ -68,6 +71,7 @@ void GoLSimulation::start()
             std::cout << "Generation number: " << board->getGenerationNumber() << std::endl;
             board->printBoard();
             std::cout << std::endl;
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // enter to continue (only looks for a newline character)
             while (board->nextGenerationPossible())
             {
                 std::cout << "Press enter for next generation: ";
@@ -110,6 +114,9 @@ void GoLSimulation::start()
                 board->outputBoard(outFile);
             }
             outFile << "Simulation is empty or has stabilized." << std::endl;
+            std::cout << "Press enter to exit: ";
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // enter to continue (only looks for a newline character)
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // enter to continue (only looks for a newline character)
             outFile.close();
             break;
         }

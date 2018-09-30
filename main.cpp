@@ -205,7 +205,7 @@ int main(int argc, char** argv)
             inFile.close();
             inFile.clear();
             std::cout << "Invalid file name! Try again." << std::endl;
-            std::cout << "Enter the file name: ";
+            std::cout << "Enter the file name to input: ";
             std::cin >> inFileName;
             inFile.open(inFileName);
         }
