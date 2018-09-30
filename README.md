@@ -51,3 +51,5 @@ https://stackoverflow.com/a/18273553
 http://www.cplusplus.com/forum/beginner/12254/
 
 http://www.cplusplus.com/reference/ctime/clock/
+
+https://stackoverflow.com/a/903230
