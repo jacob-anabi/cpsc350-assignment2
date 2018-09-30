@@ -25,7 +25,7 @@ GoLSimulation.cpp
 
 RuntimeException.cpp
 
-MapFileMisMatchException.h
+MapFileMismatchException.h
 
 
 ## Header files:
@@ -42,7 +42,7 @@ GoLSimulation.h
 
 RuntimeException.h
 
-MapFileMisMatchException.h
+MapFileMismatchException.h
 
 ## Used Resources:
 
