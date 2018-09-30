@@ -9,6 +9,7 @@
 
 #include <iostream>
 #include <string>
+#include <limits>
 #include "GoLSimulation.h"
 #include "Board.h"
 #include "ClassicBoard.h"

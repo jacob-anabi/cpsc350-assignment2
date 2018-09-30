@@ -61,8 +61,6 @@ void GoLSimulation::start()
                 std::cout << std::endl;
             }
             std::cout << "Simulation is empty or has stabilized." << std::endl;
-            std::cout << "Press 'Enter' to exit.";
-            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // enter to continue (only looks for a newline character)
             break;
         }
         case 'm': // manual output method
@@ -80,8 +78,6 @@ void GoLSimulation::start()
                 std::cout << std::endl;
             }
             std::cout << "Simulation is empty or has stabilized." << std::endl;
-            std::cout << "Press 'Enter' to exit.";
-            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // enter to continue (only looks for a newline character)
             break;
         }
         case 'f': // file output method
